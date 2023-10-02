@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #1d1d1d;
+  --nav-color: rgba(0, 0, 0, 0.662);
+  --secondary-color: rgb(16, 16, 16);
+  --border-color: rgb(34, 34, 34);
+}
+
+body {
+  color: white;
+}
+
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2rem;
+}
+h5 {
+  font-size: 1.5rem;
+}
+h6 {
+  font-size: 1.25rem;
+}
+p {
+  font-size: 1rem;
+}
+
+a {
+  color: rgb(215, 215, 215);
+  font-size: 1rem;
+}
+
+a:hover {
+  color: white;
+}
+
+.container {
+  max-width: 1250px;
+  width: 100%;
+}
+
+.category{
+    padding: 0.75rem;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+}
+
+.category:hover{
+    background-color: var(--primary-color);
+}
+
+.mini__text{
+  font-size: 0.75rem;
+}
+
+@layer utilities {
+  .bg-primary {
+    background-color: var(--primary-color);
+  }
+
+  .bg-nav{
+    background-color: var(--nav-color);
+  }
+
+  .bg-black {
+    background-color: black;
+  }
+
+  .border-color{
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .border-full-color{
+    border: 1px solid var(--border-color);
+  }
+}
