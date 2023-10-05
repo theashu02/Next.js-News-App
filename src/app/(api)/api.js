@@ -9,7 +9,7 @@ const api = async (topic) => {
 
     headers: {
       "X-BingApis-SDK": "true",
-      "X-RapidAPI-Key": "bb93bfd482msh9fc84d518a5d08ep1c71ccjsna525c9ae519b",
+      "X-RapidAPI-Key": "bb93bfd482use your id",
       // "X-RapidAPI-Key": process.env.APP_KEY,
       "X-RapidAPI-Host": "bing-news-search1.p.rapidapi.com",
     },
